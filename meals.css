@@ -1,0 +1,140 @@
+body,html{
+    margin: auto;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background-image: url('background-02-port.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+    border: 5px solid rgb(26, 26, 26);
+    padding-left:10px;
+}
+.menu-bar img{
+    height: 10vh;
+    margin: 25px 5px 10px 0;
+}
+ a{
+    text-decoration: none;
+    color: rgb(26, 26, 26);
+}
+a .menu-bar h4{
+    font-style: italic;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(11, 180, 180);
+}
+header img{
+    height: 5vh;
+}
+header #arrow{
+    margin-right: auto;
+   
+}
+header #arrow{
+    flex: 1;
+    
+}
+header #arrow2{
+    flex: 1.5;
+}
+
+/* RECIPE ONE PAGE*/
+
+.cheese{
+    width: 90%;
+    margin: 0 auto 20px;
+}
+.cheese img{
+    width: 100%;
+    margin: 5px auto;
+}
+.cheese h1, h2{
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 5px;
+}
+.cheese p{
+    display: inline-block;
+    padding: 0 20px
+}
+.cheese div{
+    margin: 10px 0;
+}
+.cheese div label{
+    display: inline-block;
+    width: 300px;
+    font-weight: 800;
+}
+.cheese div label:hover{
+    cursor: pointer;
+}
+.cheese div label,input{
+    padding: 0 20px
+}
+.cheese ol{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cheese ol li{
+    margin: 10px 0;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+
+
+
+/*drink page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*white space*/
+#space{
+    height: 20px;
+}
+
+
+/*---media queries---*/
+@media only screen and (min-width:1000px){
+    #cheese-body{
+        width: 60%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,39 @@
+body,html{
+    margin: auto;
+    width: 90%;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+    background-image: url('background-01-port.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+}
+a p{
+    color: white;
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: 5px solid white;
+}
+
+header #logo-1{
+    width: 6%;
+    display: block;
+    margin: 10px auto;
+}
+
+header #logo-2{
+    width: 30%;
+    display: block;
+    margin: 20px auto;
+}
+
+
